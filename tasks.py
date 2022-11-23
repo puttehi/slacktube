@@ -1,5 +1,4 @@
-"""
-Tasks for maintaining the project.
+"""Tasks for maintaining the project.
 
 Execute 'invoke --list' for guidance on using Invoke
 """
@@ -94,17 +93,17 @@ def hooks(c):
 def format_(c, check=False):
     # type: (Context, bool) -> None
     """Format code."""
-    isort_options = ["--check-only", "--diff"] if check else []
-    _run(c, f"poetry run isort {' '.join(isort_options)} {PYTHON_TARGETS_STR}")
     black_options = ["--diff", "--check"] if check else ["--quiet"]
     _run(c, f"poetry run black {' '.join(black_options)} {PYTHON_TARGETS_STR}")
+    isort_options = ["--check-only", "--diff"] if check else []
+    _run(c, f"poetry run isort {' '.join(isort_options)} {PYTHON_TARGETS_STR}")
 
 
 @task()
 def flake8(c):
     # type: (Context) -> None
     """Run flake8."""
-    _run(c, f"poetry run flakehell lint {PYTHON_TARGETS_STR}")
+    _run(c, f"poetry run flakeheaven lint {PYTHON_TARGETS_STR}")
 
 
 @task()
