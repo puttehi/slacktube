@@ -10,7 +10,7 @@ nox.options.sessions = ["tests", "mypy"]
 python_versions = ["3.7", "3.8", "3.9", "3.10"]
 
 
-def install_with_constraints(session: Session, *args: str, **kwargs: Any) -> None:
+def install_with_constraints(session: Session, *args: str, **kwargs: Any) -> None:  # noqa: ANN401
     """Install packages constrained by Poetry's lock file.
 
     This function is a wrapper for nox.sessions.Session.install. It
