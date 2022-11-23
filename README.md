@@ -7,7 +7,6 @@
 [![PyPI - Version](https://img.shields.io/pypi/v/slacktube.svg)](https://pypi.python.org/pypi/slacktube)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/slacktube.svg)](https://pypi.python.org/pypi/slacktube)
 [![Tests](https://github.com/puttehi/slacktube/workflows/tests/badge.svg)](https://github.com/puttehi/slacktube/actions?workflow=tests)
-[![Codecov](https://codecov.io/gh/puttehi/slacktube/branch/main/graph/badge.svg)](https://codecov.io/gh/puttehi/slacktube)
 [![Read the Docs](https://readthedocs.org/projects/slacktube/badge/)](https://slacktube.readthedocs.io/)
 [![PyPI - License](https://img.shields.io/pypi/l/slacktube.svg)](https://pypi.python.org/pypi/slacktube)
 
