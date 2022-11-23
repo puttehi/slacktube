@@ -35,7 +35,7 @@ def install_with_constraints(session: Session, *args: str, **kwargs: Any) -> Non
             f"--output={requirements.name}",
             external=True,
         )
-        session.install(f"--constraint={requirements.name}", *args, **kwargs)
+        session.install(f"-r {requirements.name}", *args, **kwargs)
 
 
 @nox.session(python=python_versions)
