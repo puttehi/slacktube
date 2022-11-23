@@ -1,0 +1,42 @@
+
+# SlackTube
+
+
+<div align="center">
+
+[![PyPI - Version](https://img.shields.io/pypi/v/slacktube.svg)](https://pypi.python.org/pypi/slacktube)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/slacktube.svg)](https://pypi.python.org/pypi/slacktube)
+[![Tests](https://github.com/puttehi/slacktube/workflows/tests/badge.svg)](https://github.com/puttehi/slacktube/actions?workflow=tests)
+[![Codecov](https://codecov.io/gh/puttehi/slacktube/branch/main/graph/badge.svg)](https://codecov.io/gh/puttehi/slacktube)
+[![Read the Docs](https://readthedocs.org/projects/slacktube/badge/)](https://slacktube.readthedocs.io/)
+[![PyPI - License](https://img.shields.io/pypi/l/slacktube.svg)](https://pypi.python.org/pypi/slacktube)
+
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
+
+</div>
+
+
+Sync new Slack messages to YouTube playlists
+
+
+* GitHub repo: <https://github.com/puttehi/slacktube.git>
+* Documentation: <https://slacktube.readthedocs.io>
+* Free software: MIT
+
+
+## Features
+
+* TODO
+
+## Quickstart
+
+TODO
+
+## Credits
+
+This package was created with [Cookiecutter][cookiecutter] and the [fedejaure/cookiecutter-modern-pypackage][cookiecutter-modern-pypackage] project template.
+
+[cookiecutter]: https://github.com/cookiecutter/cookiecutter
+[cookiecutter-modern-pypackage]: https://github.com/fedejaure/cookiecutter-modern-pypackage
